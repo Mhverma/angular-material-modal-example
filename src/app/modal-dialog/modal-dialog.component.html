@@ -1,0 +1,30 @@
+<div id="modal-content-wrapper">
+   <header id="modal-header">
+        <h1 id="modal-title">Dashboard Settings</h1>
+    </header>
+    <!-- <mat-toolbar role="toolbar" class="task-header">
+        <span> Dialog Title</span>
+        <span class="fx-spacer"></span>
+        <button mat-icon-button (click)="actionFunction()">
+            <mat-icon mat-list-icon>close</mat-icon>
+        </button>
+    </mat-toolbar> -->
+    <section id="modal-body">
+        
+        <div class="example-box" cdkDrag>
+            My Tasks
+        </div>
+
+        <div class="example-box" cdkDrag>
+           MY Apps
+        </div>
+
+        <div class="example-box" cdkDrag>
+            Announcements
+        </div>
+    </section>
+    <footer id="modal-footer">
+        <button mat-raised-button id="modal-action-button" (click)="actionFunction()">Save & Close</button>
+        <!-- <button mat-raised-button id="modal-cancel-button" (click)="closeModal()">Go back</button> -->
+    </footer>
+</div>
